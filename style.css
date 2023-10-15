@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+
+
+
+body{
+    margin: 0px;
+    background-color: #ffff;
+    height: 100vh;
+}
+
+.ad_section_login{
+    height: 100%;
+}
+
+.login_flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+}
+.login_flexbox .logo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login_flexbox .logo img{
+    width: 70%;
+}
+.login_flexbox .logo p{
+    margin: 0px 0px;
+    color: #1A1E4D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.login_flexbox .logo h1{
+    margin: 0px 0px;
+    color: #4530D7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+.login_flexbox .logo h1 div{
+    display: inline;
+    color: red;
+}
+
+.form{
+    /*border: solid black 1px;*/
+}
+
+.form_h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #1A1E4D;
+}
+.login_form_p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #88889D;
+    margin-bottom: 5px;
+}
+.login_form_input{
+    border: none;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    color: #1A1E4D;
+}
+.form_block{
+    border-bottom: solid;
+    margin: 20px 0px 10px 0px;
+    width: 380px;
+    border-color: #1A1E4D;
+    border-width: 1px;
+    padding: 0px 0px 5px 0px;
+}
+
+.form_fogot_password{
+    margin: 10px 0px 20px 0px;
+}
+.form_fogot_password a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1A1E4D;
+}
+
+.form_submit{
+    width: 100%;
+    background-color: #4530D7;
+    border-width: 0px;
+    height: 75px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: inherit;
+    padding: 5px 20px 0px 20px;
+    position: relative;
+}
+.form_submit img{
+    width: 25px;
+    position: absolute;
+    right: 23px;
+    margin-top: 2px;
+}
+.td_case{
+    padding: 1px;
+    position: relative;
+	user-select: none;
+}
+.td_case:hover{
+    top: -5px;
+}
+
+.td_case1{
+    background-color: #383838;
+}
+.td_case2{
+    background-color: #D0960B;
+}
+.td_case_status1{
+    background-color: #1885FF;
+}
+.td_case_status2{
+    background-color: #FF3118;
+}
+.section_map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
